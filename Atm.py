@@ -1,8 +1,8 @@
 balance =5000
 password_change = "1234"
-print("Welcome to the ATM /nPlease enter your password:")
+print("Welcome to the ATM \nPlease enter your password:")
 user_password = input()
-if user_password == password:
+if user_password == password_change:
     print("Password accepted. What would you like to do?")
 
     while True:
